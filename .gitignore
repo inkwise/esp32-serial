@@ -1,0 +1,22 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# ---- ESP-IDF / 编译产物 ----
+build/
+examples/*/build/
+sdkconfig.old
+*.bin
+*.elf
+*.map
+
+# ---- 编辑器 / 系统 ----
+.idea/
+.vscode/
+.DS_Store
+*.swp
+*.log
